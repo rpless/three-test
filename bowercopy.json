@@ -1,0 +1,14 @@
+{
+    "libs": {
+        "options": {
+            "destPrefix": "app/js/vendor",
+            "clean": true
+        },
+        "files": {
+            "three.js": "threejs/build/three.js",
+            "require.js": "requirejs/require.js",
+            "cannon.js": "cannon.js/build/cannon.js",
+            "lodash.js": "lodash/dist/lodash.js"
+        }
+    }
+}
