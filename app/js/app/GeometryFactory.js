@@ -14,7 +14,6 @@ define(['three', 'cannon'], function(Three, Cannon) {
         var shape = new Cannon.Plane();
         var body = new Cannon.Body(options.physics);
         body.addShape(shape);
-        body.quaternion.setFromAxisAngle(new Cannon.Vec3(1, 0, 0), -Math.PI / 2);
         physics.add(body);
 
         var size = options.size;
